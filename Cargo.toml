@@ -1,0 +1,11 @@
+[package]
+name = "kdefr"
+version = "1.0.0"
+edition = "2021"
+authors = ["Melechtna Antelecht <Melechtna@gmail.com>"]
+
+[dependencies]
+nix = { version = "0.28.0", features = ["process", "user", "signal"] }
+dialoguer = "0.11.0"
+chrono = "0.4.38"
+regex = "1.10.4"
